@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+	min-height: calc(100vh - 50px);
+}
+
+.top-text {
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.logo {
+	width: 100vw;
+	background-color: black;
+}
+
+.logo > img {
+	height: 3rem;
+}
+
+.campaign-image > img {
+	width: 100vw;
+}
+
+span {
+	color: blue;
+}
+
+.campaign-infos {
+	padding: 1rem;
+}
+
+.campaign-headline {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+}
+
+.first-gift,
+.second-gift {
+	display: flex;
+}
+
+.img1,
+.img2 {
+	margin: 2rem 0;
+	width: 5rem;
+}
+
+.text1,
+.text2 {
+	margin: 2rem;
+}
+
+.plus-sign {
+	text-align: center;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+.call-to-action p {
+	margin: 2rem 0 1rem;
+}
+
+button {
+	padding: 0.7rem;
+	background-color: yellow;
+	border-style: none;
+	margin-bottom: 2rem;
+}
+
+.end {
+	background-color: lightgray;
+	height: 0.7rem;
+}
+
+.terms-conditions {
+	margin: 2rem 0;
+}
+
+ol {
+	margin-left: 2rem;
+}
+
+footer {
+	height: 8rem;
+	text-align: center;
+	width: 100vw;
+	padding: 1rem;
+	font-family: 'Arial', sans-serif;
+	font-size: 0.875rem;
+	background-color: lightskyblue;
+	height: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin: 0 0.5rem;
+}
